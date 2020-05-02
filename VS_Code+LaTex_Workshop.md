@@ -3,11 +3,11 @@
 This article trys to help you compile LaTex document with [Visual Studio Code](https://code.visualstudio.com/).
 
 * 1 Download the **LaTex Workshop** extension 
-![image of LaTex Workshop](https://github.com/fyulingi/fyulingi.github.io/blob/master/1.jpg)
+![image of LaTex Workshop](/1.jpg)
 
 * 2 edit the **latex-workshop.latex.recipes**
   * clike "File-Preferences-settings", search "latex-workshop.latex.recipes" 
-  ![image of recipes](https://github.com/fyulingi/fyulingi.github.io/blob/master/2.jpg)
+  ![image of recipes](/2.jpg)
   * clike "**Edit in settings.json**"
   * copy the following codes to your **settings.json**
   
@@ -15,7 +15,6 @@ This article trys to help you compile LaTex document with [Visual Studio Code](h
 {
     "editor.wordWrap": "on",
     "workbench.startupEditor": "newUntitledFile",
-    "latex-workshop.latex.clean.enabled": true,
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -121,4 +120,4 @@ Now, you can enjoy your time to coding LaTex documents in your VS code environme
 
 * `ctrl`+`alt`+`b` to compile LaTex document
 * `ctrl`+`alt`+`v` to preview your document
-* `ctrl`+ clike to reverse synctex
+* `ctrl`+`clike` to reverse synctex
