@@ -6,7 +6,7 @@ This article trys to help you compile LaTeX document with [Visual Studio Code](h
 ![image of LaTeX Workshop](/1.jpg)
 
 * 2 edit the **latex-workshop.latex.recipes**
-  * clike "File-Preferences-settings", search "latex-workshop.latex.recipes" 
+  * clike "File"-"Preferences"-"settings", search "latex-workshop.latex.recipes" 
   ![image of recipes](/2.jpg)
   * clike "**Edit in settings.json**"
   * copy the following codes to your **settings.json**
