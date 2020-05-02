@@ -13,107 +13,105 @@ This article trys to help you compile LaTex document with [Visual Studio Code](h
   
 ```
 {
-  "editor.wordWrap": "on",
-  "workbench.startupEditor": "newUntitledFile",
-  "latex-workshop.latex.clean.fileTypes": [
-      "*.aux",
-      "*.bbl",
-      "*.blg",
-      "*.idx",
-      "*.ind",
-      "*.lof",
-      "*.lot",
-      "*.out",
-      "*.toc",
-      "*.acn",
-      "*.acr",
-      "*.alg",
-      "*.glg",
-      "*.glo",
-      "*.gls",
-      "*.ist",
-      "*.fls",
-      "*.log",
-      "*.fdb_latexmk",
-      "*.gz"
-  ],
-  "latex-workshop.view.pdf.viewer": "tab",
-  "latex-workshop.latex.recipes": [
-    
-
-{
-          "name": "xelatex",
+    "editor.wordWrap": "on",
+    "workbench.startupEditor": "newUntitledFile",
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.gz"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+ {
+            "name": "xelatex",
+            "tools": [
+              "xelatex",
+              "xelatex"
+            ]
+          },
+        {
+            "name": "xelatexb",
+            "tools": [
+              "xelatex",
+              "bibtex",
+              "xelatex",
+              "xelatex"
+            ]
+          },
+        {
+          "name": "latexmk",
           "tools": [
-            "xelatex",
-            "xelatex"
+            "latexmk"
           ]
         },
-      {
-          "name": "xelatexb",
+        {
+          "name": "pdflatex -> bibtex -> pdflatex*2",
           "tools": [
-            "xelatex",
+            "pdflatex",
             "bibtex",
-            "xelatex",
-            "xelatex"
+            "pdflatex",
+            "pdflatex"
+          ]
+        }
+      ],
+      "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+          "name": "latexmk",
+          "command": "latexmk",
+          "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "-pdf",
+            "%DOC%"
           ]
         },
-      {
-        "name": "latexmk",
-        "tools": [
-          "latexmk"
-        ]
-      },
-      {
-        "name": "pdflatex -> bibtex -> pdflatex*2",
-        "tools": [
-          "pdflatex",
-          "bibtex",
-          "pdflatex",
-          "pdflatex"
-        ]
-      }
-    ],
-    "latex-workshop.latex.tools": [
-      {
-          "name": "xelatex",
-          "command": "xelatex",
+        {
+          "name": "pdflatex",
+          "command": "pdflatex",
           "args": [
-              "-synctex=1",
-              "-interaction=nonstopmode",
-              "-file-line-error",
-              "%DOC%"
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "%DOC%"
           ]
-      },
-      {
-        "name": "latexmk",
-        "command": "latexmk",
-        "args": [
-          "-synctex=1",
-          "-interaction=nonstopmode",
-          "-file-line-error",
-          "-pdf",
-          "%DOC%"
-        ]
-      },
-      {
-        "name": "pdflatex",
-        "command": "pdflatex",
-        "args": [
-          "-synctex=1",
-          "-interaction=nonstopmode",
-          "-file-line-error",
-          "%DOC%"
-        ]
-      },
-      {
-        "name": "bibtex",
-        "command": "bibtex",
-        "args": [
-          "%DOCFILE%"
-        ]
-      }
-    ],
-    "latex-workshop.latex.autoClean.run": "onBuilt"
+        },
+        {
+          "name": "bibtex",
+          "command": "bibtex",
+          "args": [
+            "%DOCFILE%"
+          ]
+        }
+      ]
 }
 ```
 
@@ -123,4 +121,4 @@ Now, you can enjoy your time to coding LaTex documents in your VS code environme
 
 * `ctrl`+`alt`+`b` to compile LaTex document
 * `ctrl`+`alt`+`v` to preview your document
-* `ctrl`+
+* `ctrl`+ clike to reverse synctex
