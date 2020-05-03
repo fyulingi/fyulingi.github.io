@@ -9,4 +9,4 @@
 
 [VS Code + LaTeX Workshop](./VS_Code+LaTeX_Workshop.html)
 
-<img src='./img_0045.jpg' width="50%" height="50%" />
+<img src='./imgnew_0045.jpg' width="50%" height="50%" />
