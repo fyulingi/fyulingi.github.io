@@ -15,28 +15,6 @@ This text trys to help you compile LaTeX documents with [Visual Studio Code](htt
 {
     "editor.wordWrap": "on",
     "workbench.startupEditor": "newUntitledFile",
-    "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.blg",
-        "*.idx",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
-        "*.acn",
-        "*.acr",
-        "*.alg",
-        "*.glg",
-        "*.glo",
-        "*.gls",
-        "*.ist",
-        "*.fls",
-        "*.log",
-        "*.fdb_latexmk",
-        "*.gz"
-    ],
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.recipes": [
  {
@@ -120,4 +98,6 @@ Now, you can enjoy your time writing LaTeX documents in your VS Code environment
 
 * `ctrl`+`alt`+`b` to compile LaTeX document
 * `ctrl`+`alt`+`v` to preview your document
-* `ctrl`+`clike` to reverse synctex
+* `ctrl`+`clike` to reverse synctex[^1]
+
+[^1]To use this function right, you need to disable "Auto Clean", or add `"latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,` to your settings.json
