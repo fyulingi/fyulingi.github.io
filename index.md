@@ -1,3 +1,6 @@
+<!DOCTYAE html>
+<html>
+<meta charset="utf-8">
 <h1 style=text-align:center>Welcome to Yuling's Github Pages !</h1>
 	<hr />
 	<p>
@@ -5,6 +8,9 @@
 		<b>Address:</b>715Room, Second Building, Mid-USTC<br>
 		<b>E-mail:</b>fyulingi@gmail.com
 	</p>
-  
-
+	<p>
+		VS Code + LaTeX Workshop
+	</p>
 <img src="/img_0045.jpg"  width="500" height="390">
+</body>
+</html>
