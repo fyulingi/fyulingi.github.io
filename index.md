@@ -1,6 +1,3 @@
-<!DOCTYAE html>
-<html>
-<meta charset="utf-8">
 <h1>Welcome to Yuling's Github Pages !</h1>
 	<hr />
 	<p>
