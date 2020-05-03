@@ -1,5 +1,11 @@
-## Welcome to GitHub Pages
-
+<h1 style=text-align:center>Welcome to Yuling's Github Pages !</h1>
+	<hr />
+	<p>
+		<b>Name:</b>Yuling Fu<IMG SRC="/cgi-bin/Count.cgi?df=linglinyang" style="float:right">  <br>
+		<b>Address:</b>715Room, Second Building, Mid-USTC<br>
+		<b>E-mail:</b>fyulingi@gmail.com
+	</p>
+  
 You can use the [editor on GitHub](https://github.com/fyulingi/fyulingi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
