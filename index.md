@@ -7,6 +7,6 @@
 
 ## Some Texts
 
-[VS Code + LaTeX Workshop](/VS_Code+LaTeX_Workshop.html)
+[VS Code + LaTeX Workshop](./VS_Code+LaTeX_Workshop.html)
 
-![photo](/img_0045.jpg){:height="30%" width="30%"}
+![photo](./img_0045.jpg =200x)
