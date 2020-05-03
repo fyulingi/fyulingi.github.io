@@ -9,4 +9,4 @@
 
 [VS Code + LaTeX Workshop](./VS_Code+LaTeX_Workshop.html)
 
-![photo](./img_0045.jpg =300x)
+![photo](./img_0045.jpg){:width=300px}
