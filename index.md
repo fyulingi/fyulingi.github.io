@@ -1,8 +1,8 @@
 # Welcome to Yuling's Github Pages !
 
-**Name**:Yuling Fu
+**Name**: Yuling Fu
 
-**E-mail**:fyulingi@gmail.com
+**E-mail**: fyulingi@gmail.com
 
 
 ## Some Texts
