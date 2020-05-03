@@ -1,13 +1,8 @@
-<h1>Welcome to Yuling's Github Pages !</h1>
-	<hr />
-	<p>
-		<b>Name:</b>Yuling Fu<br>
-		<b>Address:</b>715Room, Second Building, Mid-USTC<br>
-		<b>E-mail:</b>fyulingi@gmail.com
-	</p>
-	<p>
-		VS Code + LaTeX Workshop
-	</p>
+## Welcome to Yuling's Github Pages !
+
+**Name**:Yuling Fu
+**E-mail**:fyulingi@gmail.com
+
+[VS Code + LaTeX Workshop](/VS_Code+LaTeX_Workshop.html)
+
 <img src="/img_0045.jpg"  width="500" height="390">
-</body>
-</html>
