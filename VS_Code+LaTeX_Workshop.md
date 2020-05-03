@@ -100,4 +100,4 @@ Now, you can enjoy your time writing LaTeX documents in your VS Code environment
 * `ctrl`+`alt`+`v` to preview your document
 * `ctrl`+`clike` to reverse synctex[^1]
 
-[^1]:To use this function right, you need to disable "Auto Clean", or add `"latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,` to your settings.json
+[^1]:To use this function right, you need to disable "Auto Clean", or add `"latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,` to your **settings.json**
