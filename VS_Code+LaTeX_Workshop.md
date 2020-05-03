@@ -1,15 +1,15 @@
 ## VS Code + LaTeX Workshop
 
-This article trys to help you compile LaTeX document with [Visual Studio Code](https://code.visualstudio.com/).
+This text trys to help you compile LaTeX documents with [Visual Studio Code](https://code.visualstudio.com/).
 
 * 1 Download the **LaTeX Workshop** extension 
 ![image of LaTeX Workshop](/1.jpg)
 
-* 2 edit the **latex-workshop.latex.recipes**
-  * clike "File"-"Preferences"-"settings", search "latex-workshop.latex.recipes" 
+* 2 Edit the **latex-workshop.latex.recipes**
+  * Clike "File"-"Preferences"-"settings", search "latex-workshop.latex.recipes" 
   ![image of recipes](/2.jpg)
-  * clike "**Edit in settings.json**"
-  * copy the following codes to your **settings.json**
+  * Clike "**Edit in settings.json**"
+  * Copy the following codes to your **settings.json**
   
 ```
 {
@@ -114,7 +114,7 @@ This article trys to help you compile LaTeX document with [Visual Studio Code](h
 }
 ```
 
-Now, you can enjoy your time to coding LaTeX documents in your VS Code environment.
+Now, you can enjoy your time writing LaTeX documents in your VS Code environment.
 
 ## Some Useful Shortcut
 
