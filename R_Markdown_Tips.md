@@ -6,7 +6,7 @@ This text tells you some useful **R Markdown** tips to make your document more b
 * `&nbsp;` to begin a new line
 * To knit your Rmd document to pdf with Chinese character in it, your can try this Rmd head document
 
-  ```markdown
+  ```
     ---
     title: "title"
     documentclass: ctexart
