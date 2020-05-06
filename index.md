@@ -9,7 +9,7 @@
 
 [VS Code + LaTeX Workshop](./VS_Code+LaTeX_Workshop.html)
 
-[VS Code + C/C++ Compile Run](./VS_Code+C(C++).md)
+[VS Code + C/C++ Compile Run](./VS_Code+C(C++).html)
 
 [R Markdown Tips](./R_Markdown_Tips.html)
 
