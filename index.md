@@ -13,4 +13,6 @@
 
 [R Markdown Tips](./R_Markdown_Tips.html)
 
+[Small Tools](./small_tools.html)
+
 <img src='./imgnew_0045.jpg' width="50%" height="50%" />
