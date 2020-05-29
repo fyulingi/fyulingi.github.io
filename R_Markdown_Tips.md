@@ -6,6 +6,7 @@ This text tells you some useful **R Markdown** tips to make your document more b
 * `&nbsp;` to begin a new line
 * `![](name your your picture)` to insert a picture
 * `{r setup, warning=FALSE}` to remove warning message
+* `{r,results="hide"}` to hide your console results
 * To knit your Rmd document to pdf with Chinese character in it, your can try this Rmd head document
 
   ```
