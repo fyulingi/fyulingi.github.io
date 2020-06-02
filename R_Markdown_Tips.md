@@ -7,6 +7,7 @@ This text tells you some useful **R Markdown** tips to make your document more b
 * `![](name your your picture)` to insert a picture
 * `{r setup, warning=FALSE}` to remove warning message
 * `{r,results="hide"}` to hide your console results
+* When use unordered sub-lists, it may be OK if you convert your `.Rmd` to `.html`, but the second sub-lists symbol may be `-`. To make it a hollow bullet, you just need to add `\renewcommand{\labelitemii}{$\circ$}` to your `header.tex` 
 * To knit your Rmd document to pdf with Chinese character in it, your can try this Rmd head document
 
   ```
