@@ -34,3 +34,4 @@ This text tells you some useful **R Markdown** tips to make your document more b
     ` ``# remove the space when copy this codes to your own Rmd document
   ```
   Remember to move your "head.tex" to your current directory.
+ <div align="center"><img src='./Rmarkdown_format.jpg' width="50%" height="50%" /></div>
