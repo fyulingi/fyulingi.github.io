@@ -6,3 +6,4 @@
 * [Captura](https://mathewsachin.github.io/Captura/) for video recording 
 * [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [typora](https://typora.io/) editor for markdown
+* [xmind](https://www.xmind.cn/)
