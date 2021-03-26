@@ -8,4 +8,4 @@ To build C environment within your VS Code, you just need to find **C/C++ Compil
 
 Then install it.
 
-Congratulations! Now you can comlile and run your C/C++ files just as the names of the extension shows with only press `f6`. So easy, right?
+Congratulations! Now you can compile and run your C/C++ files just as the names of the extension shows with only press `f6`. So easy, right?
