@@ -15,4 +15,6 @@
 
 [Small Tools](./small_tools.html)
 
+[Clion for gStore config](./How_to_use_CLion_to_work_on_gStore.html)
+
 <img src='./imgnew_0045.jpg' width="50%" height="50%" />
